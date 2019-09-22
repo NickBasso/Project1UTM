@@ -48,7 +48,7 @@ main(){
 	longXDelta - difference between index at which value to be extrapolated and first point index
 	shortXDelta - difference between index at second point and index at first point
 	yDelta - difference between array values at first and second point indices
-	result: answer given basing on that function value dependecy of argument is linear
+	result: answer given basing on that function value dependency of argument is linear
 */
 
 void linearTwoPointsExtr(){
