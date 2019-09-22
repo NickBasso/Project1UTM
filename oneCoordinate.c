@@ -1,5 +1,4 @@
 // connecting libraries necessary for successful compilation and launch
-
 //stdio.h stands for "standard input output" header file
 #include <stdio.h>
 
