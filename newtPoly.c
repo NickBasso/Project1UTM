@@ -25,7 +25,7 @@ main(){
 
 void polynomNewtIntr()
 {
-    float p[10], f=arr[1], f1=1, f2=0;
+    float p[10000], f=arr[1], f1=1, f2=0;
     int k=numElem+1,i,j=1;
  
     do
