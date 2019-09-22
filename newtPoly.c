@@ -46,5 +46,5 @@ void polynomNewtIntr()
     }
  	while(numElem!=1);
     f+=f2;
-    printf("Newton Polynomial result:\t\t\t\t %f", f);
+    printf("Newton Polynomial result:\t\t\t\t\t       %f", f);
 }
