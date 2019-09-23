@@ -13,7 +13,7 @@ void polynomLagrExtr();
 void polynomNewtIntr();
 
 // main declarations for global scope usage
-int numElem;			// number of elements
+int numElem = 100;		// number of elements
 float arr[10000 + 5];	// float-type array of 10000 + 5 elements 
 
 // main() is the program entry point
@@ -22,12 +22,12 @@ main(){
 	
 	// File input declarations
 	FILE *fp;
-	fp = fopen("input.txt", "r");
+	fp = fopen("_A3.txt", "r");
 	
 	// entering data from the file
 	int i;
 	
-	fscanf(fp, "%d", &numElem);
+	//fscanf(fp, "%d", &numElem);
 	
 	for(i = 0; i < numElem; i++){
 		fscanf(fp, "%f", &arr[i]);
